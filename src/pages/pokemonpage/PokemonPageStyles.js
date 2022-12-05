@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Title = styled.h2`
-  color: #61dbfb;
+  color: black;
   margin-block: 30px;
   text-align: center;
 `;
@@ -9,7 +9,7 @@ export const FormSearch = styled.form`
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 100%;
+  width: 40%;
   @media (min-width: 768px) {
     max-width: 70%;
   }
@@ -27,9 +27,9 @@ export const InputSearch = styled.input`
 export const ButtonSearch = styled.button`
   width: 100%;
   font-weight: 700;
-  background-color: #252525;
+  background-color:#06F00A;
   padding: 10px;
-  background: #61dbfb;
+  background: #06F00A;
   color: #333;
   outline: none;
   border: none;
