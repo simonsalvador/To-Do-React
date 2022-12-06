@@ -6,7 +6,9 @@ export const Title = styled.h2`
   text-align: center;
 `;
 export const FormSearch = styled.form`
-  display: flex;
+   display:flex;
+  justify-content:center;
+  align-items:center;
   flex-direction: column;
   margin: auto;
   width: 40%;
@@ -22,22 +24,26 @@ export const InputSearch = styled.input`
   color: #fafafa;
   outline: none;
   border: none;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 `;
 export const ButtonSearch = styled.button`
-  width: 100%;
+  width: 30%;
   font-weight: 700;
   background-color:#06F00A;
-  padding: 10px;
-  background: #06F00A;
+  margin-top:20px;
+  padding: 12px;
+  background: yellow;
   color: #333;
   outline: none;
   border: none;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   cursor: pointer;
 `;
 export const CardContainer = styled.div`
   margin-block: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 `;
 export const MessageError = styled.p`
   color: red;
